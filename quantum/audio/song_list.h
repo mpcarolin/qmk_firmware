@@ -22,6 +22,12 @@
 
 #define NO_SOUND
 
+/* Samus Appearance Fanfare
+   Game: Metroid
+ */
+#define SAMUS_FANFARE \
+    WD_NOTE(_D6), WD_NOTE(_F6), WD_NOTE(_D6), WD_NOTE(_C6), WD_NOTE(_A5), WD_NOTE(_REST), WD_NOTE(_A5)
+
 #define LP_NUMB	\
 	H__NOTE(_CS5), H__NOTE(_E5), H__NOTE(_CS5), WD_NOTE(_FS5), \
 	WD_NOTE(_A5), WD_NOTE(_GS5),   WD_NOTE(_REST),  H__NOTE(_CS5), H__NOTE(_E5), \
